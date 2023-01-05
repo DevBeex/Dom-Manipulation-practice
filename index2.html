@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica</title>
+</head>
+<body>
+    <h1>Manipulación del DOM básica</h1>
+    <input onchange="console.log('Cambio el input')"id="calculo1" placeholder="Valor 1"/>
+    <input id="calculo2" placeholder="Valor 2"/>
+    <button id = "btnCalcular" onclick="btnOnClickSum()">Sumar</button>
+    <button id = "btnCalcular" onclick="btnOnClickMinus()">Restar</button>
+    <button id = "btnCalcular" onclick="btnOnClickDiv()">Dividir</button>
+    <button id = "btnCalcular" onclick="btnOnClickMult()">Multiplicar</button>
+    
+    <p id="result"></p>
+
+    <script src = "./script2.js"></script>
+</body>
+</html>
